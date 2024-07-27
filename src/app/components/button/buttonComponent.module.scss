@@ -17,12 +17,6 @@
         scale: 0.97;
     }
 
-    transition:
-        background-color 220ms ease-in-out,
-        color 220ms ease-in-out,
-        border 220ms ease-in-out,
-        box-shadow 220ms ease-in-out;
-
     @media screen and (max-width: 576px) {
         padding: 12px 10px;
     }
