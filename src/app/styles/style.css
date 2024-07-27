@@ -1,0 +1,41 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: var(--grey);
+  background: url('./../../assets/photo.jpg') center center no-repeat fixed;
+  background-size: cover;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --black: black;
+  --black-light: rgba(0, 0, 0, 0.4);
+  --dark-grey: #2c2c2c;
+  --dark-yellow: #717148;
+  --grey: grey;
+  --white: #f0f0f0;
+  --perfect-white: #fff;
+  --blue: #2196f3;
+  --red: red;
+  --brown: brown;
+  --green-valid: aquamarine;
+  --green: #85cdca;
+  --light-purple: hsl(242, 61%, 76%);
+  --purple: hsl(242, 61%, 71%);
+  --light-green: #65c45d;
+  --orange: orange;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.8);;
+}

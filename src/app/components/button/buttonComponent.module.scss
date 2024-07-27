@@ -1,0 +1,37 @@
+.btn {
+    padding: 15px 20px;
+
+    color: var(--black);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 10px;
+    background-color: var(--white);
+
+    cursor: pointer;
+    user-select: none;
+
+    &:active {
+        scale: 0.97;
+    }
+
+    transition:
+        background-color 220ms ease-in-out,
+        color 220ms ease-in-out,
+        border 220ms ease-in-out,
+        box-shadow 220ms ease-in-out;
+
+    @media screen and (max-width: 576px) {
+        padding: 12px 10px;
+    }
+}
+
+.btn:disabled {
+    background-color: var(--gray);
+    pointer-events: none;
+    cursor: none;
+    border-color: rgb(211, 145, 145);
+    color: rgb(211, 145, 145);
+}

@@ -1,0 +1,48 @@
+.auth {
+	padding: 100px 0;
+	@media screen and (max-width: 992px) {
+		padding: 50px 0;
+	}
+
+	&__form {
+		margin: 0 auto;
+	}
+}
+
+.form {
+	max-width: 590px;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid black;
+	box-shadow: 2px 1px 20px black;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+
+	.container {
+		padding: 0 15px;
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+		@media screen and (max-width: 992px) {
+			gap: 25px;
+		}
+	}
+
+    .title {
+        color: var(--white);
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: normal;
+        @media screen and (max-width: 992px) {
+            font-size: 25px;
+        }
+    }
+
+	.fields {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+}
+

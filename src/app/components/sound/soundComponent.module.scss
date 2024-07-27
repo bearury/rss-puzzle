@@ -1,0 +1,29 @@
+.sound {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 1.05;
+
+    cursor: pointer;
+    transition: box-shadow 0.3s ease 0s;
+
+    img{
+        width: 150%;
+        height: 150%;
+    }
+}
+
+.sound:hover {
+    transition: box-shadow 0.3s ease 0s;
+    box-shadow: 0px 0px 12px var(--green);
+}
+
+.sound:active {
+    scale: 1;
+}
